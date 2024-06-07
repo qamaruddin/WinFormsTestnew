@@ -26,6 +26,7 @@ Public Class SQLiteHelper
 
         contactRepo.InsertContact(New Core.Contact() With {.Name = "John Doe", .Email = "John@gmail.com", .Phone = 9999999999})
         contactRepo.InsertContact(New Core.Contact() With {.Name = "Jane Smith", .Email = "Jane@gmail.com", .Phone = 9999999999})
+        contactRepo.InsertContact(New Core.Contact() With {.Name = "John Wick", .Email = "John@gmail.com", .Phone = 777777777})
     End Sub
 
     Shared Sub RemoveDatabase()
